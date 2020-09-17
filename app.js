@@ -28,7 +28,7 @@ app.set('views engine','pug');//set template engine as pug
 app.set('views',path.join(__dirname,'views'));//set the view directory
 
 // EndPoints
-app.get('/',(req,res)=>{
+app.get('/JDA-Dance-Academy-/',(req,res)=>{
     const params = {'title':'Jai Dance Academy' };
     res.status(200).render('home.pug',params);
     });
