@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 18px;
+    margin-right: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+#logo img{
+    height: 33px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: #b72828;
+    padding: 15px 4px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 13px 25px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background: url("/static/bg.jpg") no-repeat center/cover;
+    height: 350px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 25px;
+}
+
+#missionSection{
+    height: 322px;
+    width: 83%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Pacifico', cursive;
+}
+
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    width: 29%;
+    height: 203px;
+    border-radius: 10px;
+    margin: 21px 22px;
+
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 17px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    margin: 5px 5px;
+    height: 125px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 16px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #ea9b9b;
+}
+#sponsorsSection h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Pacifico', cursive;
+}
+
+#sponsors{
+    height: 171px;
+    max-width: 856px;
+    margin: 20px auto;
+    margin-left: 307px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 5 0px;
+    background-color: black;
+    font-size: 17px;
+    font-family:  monospace;
+}
